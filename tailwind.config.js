@@ -1,11 +1,18 @@
 /** @type {import('tailwindcss').Config} */
+
+const plugin = require('tailwindcss/plugin');
+
 module.exports = {
   content: [
-    './src/**/*.{html,js,ts,jsx,tsx}',
-    './stories//**/*.{html,js,ts,jsx,tsx}',
+    './src/**/*.{html,js,ts,css}',
+    './preview/index.html'
   ],
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addVariant }) {
+      addVariant('children', '& > *');
+    })
+  ],
 }
