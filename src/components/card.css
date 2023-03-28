@@ -1,0 +1,3 @@
+.card {
+  @apply block max-w-sm p-6 bg-white border border-neutral-200 rounded-lg;
+}

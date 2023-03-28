@@ -1,0 +1,19 @@
+h1 { @apply text-4xl font-extrabold leading-none tracking-tight text-neutral-900 md:text-5xl lg:text-6xl; }
+h2 { @apply text-4xl font-bold; }
+h3 { @apply text-3xl font-bold; }
+h4 { @apply text-2xl font-bold; }
+h5 { @apply text-xl font-bold; }
+h6 { @apply text-lg font-bold; }
+
+p { @apply text-neutral-500; }
+
+ul { @apply space-y-1 text-neutral-500 list-disc list-inside; }
+
+a {
+  @apply hover:underline;
+  &.primary { @apply text-green-600; }
+  &.light { @apply text-neutral-500; }
+  &.dark { @apply text-neutral-900; }
+}
+
+hr { @apply h-px my-8 bg-neutral-200 border-0; }
