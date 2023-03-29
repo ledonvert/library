@@ -18,7 +18,8 @@
     "build:js": "pnpm prejss-cli -f commonjs dist/output.css",
     "build": "pnpm build:css && pnpm build:js",
 
-    "compile": "pnpm build && pnpm tailwindcss -c preview/tailwind.config.js  -o preview/tailwind.css"
+    "compile": "pnpm build && pnpm tailwindcss -c preview/tailwind.config.js  -o preview/tailwind.css",
+    "publish": "pnpm build && git commit -a -m 'Added output file'"
   },
   "prettier": {
     "printWidth": 80,
