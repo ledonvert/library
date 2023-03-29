@@ -16,4 +16,4 @@ a {
   &.dark { @apply text-neutral-900; }
 }
 
-hr { @apply h-px my-8 bg-neutral-200 border-0; }
+hr { @apply h-px bg-neutral-200 border-0; }
