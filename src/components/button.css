@@ -1,5 +1,5 @@
 .btn {
-  @apply focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2;
+  @apply focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5;
   &.primary { 
     @apply bg-green-100 hover:bg-green-200 text-green-900; 
     /* Only coloured buttons can be disabled */

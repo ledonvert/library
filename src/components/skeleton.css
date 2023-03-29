@@ -1,7 +1,7 @@
 .skeleton {
   @apply animate-pulse;
   &.text {
-    @apply bg-neutral-200 rounded-full mb-4;
+    @apply bg-neutral-200 rounded-full;
   }
   &.image {
     @apply flex items-center justify-center bg-neutral-300 rounded;

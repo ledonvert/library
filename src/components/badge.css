@@ -1,5 +1,5 @@
 .badge {
-  @apply text-xs font-medium mr-2 px-2.5 py-0.5 rounded;
+  @apply text-xs font-medium px-2.5 py-0.5 rounded;
   &.primary { @apply bg-green-100 text-green-800; }
   &.light { @apply bg-gray-100 text-gray-800; }
   &.dark { @apply bg-gray-800 text-gray-100; }
