@@ -19,7 +19,7 @@
     "build": "pnpm build:css && pnpm build:js",
 
     "compile": "pnpm build && pnpm tailwindcss -c preview/tailwind.config.js  -o preview/tailwind.css",
-    "publish": "pnpm build && pnpm publish --access public"
+    "build:publish": "pnpm build && pnpm publish --access public"
   },
   "prettier": {
     "printWidth": 80,
