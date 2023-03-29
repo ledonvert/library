@@ -1,6 +1,6 @@
-h1 { @apply text-4xl font-extrabold leading-none tracking-tight text-neutral-900 md:text-5xl lg:text-6xl; }
-h2 { @apply text-4xl font-bold; }
-h3 { @apply text-3xl font-bold; }
+h1 { @apply text-4xl font-black leading-none tracking-tight text-neutral-900 md:text-5xl lg:text-6xl; }
+h2 { @apply text-4xl font-black; }
+h3 { @apply text-3xl font-black; }
 h4 { @apply text-2xl font-bold; }
 h5 { @apply text-xl font-bold; }
 h6 { @apply text-lg font-bold; }
